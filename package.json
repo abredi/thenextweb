@@ -1,0 +1,14 @@
+{
+  "name": "thenextweb",
+  "version": "0.0.1",
+  "description": "The thenextweb.com home page replica project",
+  "main": "index.html",
+  "repository": "https://github.com/abredi/thenextweb.git",
+  "author": "Abdulaziz Ali and Adan Fernandez",
+  "license": "MIT",
+  "private": null,
+  "devDependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
