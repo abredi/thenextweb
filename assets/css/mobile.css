@@ -4,6 +4,38 @@
   */
 
   /**
+  * Latest deals
+  */
+
+  .deals {
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .product {
+    display: grid;
+    grid-template: repeat(2, 1fr) / 25% auto;
+    column-gap: 1em;
+  }
+
+  .product a {
+    font-size: 90%;
+  }
+
+  .product figure {
+    grid-row: span 2;
+  }
+
+  .deal-discount {
+    display: none;
+  }
+
+  /**
+   * END of latest deals
+  /**
   * footer
   */
   .footer-legal {
