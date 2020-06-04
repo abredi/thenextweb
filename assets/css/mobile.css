@@ -1,11 +1,16 @@
 @media screen and (min-width: 215px) and (max-width: 767px) {
-/**
+  /**
   * This block is specifically for mobile only codes
-*/
+  */
 
+  /**
+  * footer
+  */
+  .footer-legal {
+    flex-direction: column;
+  }
 
-
-
-
-
+  .footer li {
+    padding: 0.2em;
+  }
 }
