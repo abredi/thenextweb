@@ -8,7 +8,9 @@ Reset and commons
 body,
 ul,
 figure,
-h4 {
+h4,
+h3,
+h5 {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -34,6 +36,10 @@ a {
   color: #333;
 }
 
+.white {
+  color: #fff;
+}
+
 .red {
   color: #f00;
 }
@@ -42,9 +48,17 @@ a {
   margin-left: 0.5em;
 }
 
+.mb-half {
+  margin-bottom: 0.5em;
+}
+
 .mx-half {
   margin-right: 0.5em;
   margin-left: 0.5em;
+}
+
+.m-1 {
+  margin: 1;
 }
 
 .flex {
@@ -72,8 +86,79 @@ a {
   align-items: center;
 }
 
+.flex-y-end {
+  align-items: flex-end;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+/**
+* News grid
+*/
+
+.card {
+  margin: 1em;
+}
+
+.popular-header {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/google-photos-video-srtrangers-368x276.jpg");
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  height: 0;
+  padding-top: 70%;
+  width: 100%;
+}
+
+.image-gradient {
+  background: transparent url(../img/image-gradient.png) no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.card h5 {
+  margin-bottom: 6px;
+  font-family: 'Ropa Sans', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.popular-header header {
+  z-index: 3;
+  padding: 1em;
+}
+
+.popular-author a,
+.popular-author time,
+.popular-author li {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.popular-author li {
+  display: inline;
+}
+
+.popular-author li:first-child::after {
+  content: "\B7";
+  margin: 0 4px;
+}
+
+.popular-title {
+  margin-bottom: 6px;
 }
 
 /**
