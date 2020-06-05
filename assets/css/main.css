@@ -421,6 +421,12 @@ body {
   background-color: #ffebe8;
 }
 
+.main-nav {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
 .black-nav {
   display: flex;
   width: 100%;
@@ -452,6 +458,7 @@ body {
 }
 
 .white-nav {
+  background-color: #fafafa;
   flex-direction: row;
   width: 100%;
 }
