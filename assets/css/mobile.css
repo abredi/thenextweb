@@ -67,4 +67,77 @@
     .white-nav {
       display: none;
     }
+
+    .cover {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+    }
+
+    .cover img {
+      max-width: 100%;
+    }
+
+    .black-nav,
+    .white-menu  {
+      display: none;
+    }
+
+    .yellow-nav {
+      font-size: 0.7rem;
+      height: 3rem;
+      align-items: center;
+    }
+
+    .yellow-nav p {
+      padding: 1rem;
+    }
+
+    .latest-news {
+      align-items:flex-start;
+      width: 100%;
+    }
+    .news-content {
+      width: 100%;
+    }
+
+    .news-content img{
+      height: 5rem;
+      width: 5rem;
+    }
+
+    .news1 {
+      width: 100%;
+      flex-direction: row;
+    }
+
+    .latest-funding {
+      align-items: flex-start;
+      width: 90%;
+      margin-left:1rem;
+    }
+
+    .latest-funding-container
+    {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .funding-info {
+      width: 100%;
+    }
+
+    .icons-text {
+      width: 100%;
+    }
+
+    .logo {
+      margin-left: 3rem;
+    }
+
+    .white-nav-mobile {
+      width: 100%;
+      justify-content: space-between;
+    }
 }
