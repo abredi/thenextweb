@@ -2,8 +2,9 @@
   /**
     * This block is specifically for desktop only codes
   */
- 
-
+.white-nav-mobile {
+  display: none;
+}
 
 
 

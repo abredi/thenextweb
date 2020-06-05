@@ -58,6 +58,12 @@ body {
   margin: 0.50rem;
 }
 
+.white-nav-mobile {
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
 a {
   text-decoration: none;
   color: gray;
@@ -79,7 +85,7 @@ a {
 
 .main-article {
   grid-row:1/-1;
-  margin-right: 0.5rem;
+  /* margin-right: 0.5rem; */
 }
 
 .second-article {
@@ -150,3 +156,19 @@ a {
   list-style: none;
   border-bottom: 1px solid red;
 }
+
+@media screen and (min-width: 215px) and (max-width: 767px) {
+
+    .cover {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .cover img {
+      max-width: 100%;
+    }
+    .black-nav,
+    .white-nav {
+      display: none;
+    }
+  }
