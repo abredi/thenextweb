@@ -9,6 +9,17 @@ body {
 .flex {
   display: flex;
 }
+.grid {
+    display: grid;
+}
+
+.dark-orange {
+  background-color: #ff4422;
+}
+
+.light-orange {
+  background-color: #ffebe8;
+}
 
 .black-nav{
   display: flex;
@@ -30,6 +41,7 @@ body {
   list-style: none;
   margin: 0.50rem;
 }
+
 .black-nav a {
   text-decoration: none;
   color: white;
@@ -39,7 +51,102 @@ body {
   justify-content: flex-end;
 }
 
+.white-nav ul {
+  width: 30%;
+  list-style: none;
+  justify-content: space-around;
+  margin: 0.50rem;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
 .yellow-nav {
   width: 100%;
   background-color: yellow;
+}
+
+.yellow-nav p {
+  margin-left: 3.50rem;
+}
+
+.cover {
+  grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+  margin-left: 1.5rem;
+}
+
+.main-article {
+  grid-row:1/-1;
+  margin-right: 0.5rem;
+}
+
+.second-article {
+ grid-row: 1/-1;
+}
+
+.latest-news,
+.latest-funding {
+  flex-direction: column;
+  align-items: center;
+}
+
+.latest-news h2,
+.latest-funding h2 {
+  display: flex;
+  justify-content: flex-start;
+  width: 64%;
+}
+
+.news-content {
+  width: 64%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.news1 {
+  flex-direction: column;
+  width: min-content;
+  text-align:justify;
+  padding: 1rem;
+}
+
+.latest-funding-container {
+    flex-direction: row;
+    width: 64%;
+    justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.funding-name {
+  height: 2.5rem;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.funding-info {
+  margin: 0;
+  width: 15rem;
+  height: 4rem;
+  justify-content: center;
+}
+
+.icons-text {
+  flex-direction: row;
+  height: auto;
+  width: 15rem;
+  margin: 0;
+}
+
+.icons-text ul {
+  width: 15rem;
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  border-bottom: 1px solid red;
 }
