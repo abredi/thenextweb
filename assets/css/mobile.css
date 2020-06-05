@@ -4,10 +4,19 @@
   */
 
   /**
+  * Latest News
+  */
+
+  .col-3 {
+    width: 100%;
+  }
+
+  /**
   * Latest deals
   */
 
-  .deals {
+  .deals,
+  .category {
     width: 100%;
   }
 
