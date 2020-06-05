@@ -2,10 +2,12 @@
   /**
     * This block is specifically for desktop only codes
   */
-.white-nav-mobile {
+.menu-icon,
+.logo-mobile{
   display: none;
 }
 
-
-
+.white-nav-mobile {
+  justify-content: flex-end;
+}
 }
