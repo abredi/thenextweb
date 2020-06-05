@@ -3,9 +3,16 @@
   * This block is specifically for mobile only codes
 */
 
-
-
-
-
-
+    .cover {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .cover img {
+      max-width: 100%;
+    }
+    .black-nav,
+    .white-nav {
+      display: none;
+    }
 }

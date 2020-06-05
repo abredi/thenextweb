@@ -159,16 +159,4 @@ a {
 
 @media screen and (min-width: 215px) and (max-width: 767px) {
 
-    .cover {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .cover img {
-      max-width: 100%;
-    }
-    .black-nav,
-    .white-nav {
-      display: none;
-    }
   }
