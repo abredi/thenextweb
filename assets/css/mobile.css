@@ -55,89 +55,101 @@
     padding: 0.2em;
   }
 
-	    .cover {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .cover img {
-      max-width: 100%;
-    }
-    .black-nav,
-    .white-nav {
-      display: none;
-    }
+  /**
+  * big news
+  */
 
-    .cover {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      margin: 0;
-    }
+  .top-news-banner {
+    margin: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .cover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .cover img {
-      max-width: 100%;
-    }
+  .cover img {
+    max-width: 100%;
+  }
 
-    .black-nav,
-    .white-menu  {
-      display: none;
-    }
+  .black-nav {
+    display: none;
+  }
 
-    .yellow-nav {
-      font-size: 0.7rem;
-      height: 3rem;
-      align-items: center;
-    }
+  .cover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
 
-    .yellow-nav p {
-      padding: 1rem;
-    }
+  .cover img {
+    max-width: 100%;
+  }
 
-    .latest-news {
-      align-items:flex-start;
-      width: 100%;
-    }
-    .news-content {
-      width: 100%;
-    }
+  .black-nav,
+  .white-menu {
+    display: none;
+  }
 
-    .news-content img{
-      height: 5rem;
-      width: 5rem;
-    }
+  .yellow-nav {
+    font-size: 0.7rem;
+    height: 3rem;
+    align-items: center;
+  }
 
-    .news1 {
-      width: 100%;
-      flex-direction: row;
-    }
+  .yellow-nav p {
+    padding: 1rem;
+  }
 
-    .latest-funding {
-      align-items: flex-start;
-      width: 90%;
-      margin-left:1rem;
-    }
+  .latest-news {
+    align-items: flex-start;
+    width: 100%;
+  }
 
-    .latest-funding-container
-    {
-      flex-direction: column;
-      width: 100%;
-    }
+  .news-content {
+    width: 100%;
+  }
 
-    .funding-info {
-      width: 100%;
-    }
+  .news-content img {
+    height: 5rem;
+    width: 5rem;
+  }
 
-    .icons-text {
-      width: 100%;
-    }
+  .news1 {
+    width: 100%;
+    flex-direction: row;
+  }
 
-    .logo {
-      margin-left: 3rem;
-    }
+  .latest-funding {
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 1rem;
+  }
 
-    .white-nav-mobile {
-      width: 100%;
-      justify-content: space-between;
-    }
+  .latest-funding-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .funding-info {
+    width: 100%;
+  }
+
+  .icons-text {
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 3rem;
+  }
+
+  .white-nav-mobile {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
