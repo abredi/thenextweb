@@ -54,4 +54,17 @@
   .footer li {
     padding: 0.2em;
   }
+
+	    .cover {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .cover img {
+      max-width: 100%;
+    }
+    .black-nav,
+    .white-nav {
+      display: none;
+    }
 }
