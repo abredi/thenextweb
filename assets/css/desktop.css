@@ -1,5 +1,13 @@
-@media screen and (min-width: 1115px) {
+  @media screen and (min-width: 1115px) {
   /**
-  * This block is specifically for desktop only codes
+    * This block is specifically for desktop only codes
   */
+.menu-icon,
+.logo-mobile{
+  display: none;
+}
+
+.white-nav-mobile {
+  justify-content: flex-end;
+}
 }
