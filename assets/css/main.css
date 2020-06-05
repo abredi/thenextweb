@@ -425,6 +425,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 10;
+  width: 100%;
 }
 
 .black-nav {
@@ -585,7 +586,7 @@ span {
 }
 
 .top-news-banner {
-  margin: 0.5em 1em;
+  margin: 5.3em 1em 0.5em;
   display: grid;
   grid-template: repeat(2, 1fr)/repeat(2, 1fr);
   gap: 1em;
