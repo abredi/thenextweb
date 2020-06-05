@@ -65,20 +65,6 @@
     flex-direction: column;
     gap: 0.5em;
   }
-  
-  .cover {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .cover img {
-    max-width: 100%;
-  }
-
-  .black-nav {
-    display: none;
-  }
 
   .cover {
     display: flex;
@@ -89,6 +75,10 @@
 
   .cover img {
     max-width: 100%;
+  }
+
+  .black-nav {
+    display: none;
   }
 
   .black-nav,

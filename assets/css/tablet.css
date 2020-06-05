@@ -26,36 +26,33 @@
   .product {
     max-width: 100%;
   }
-	
-.menu-icon,
-.logo-mobile {
-  display: none;
-}
-.white-nav-mobile {
-  justify-content: flex-end;
-}
 
-.cover {
-  
-}
+  .menu-icon,
+  .logo-mobile {
+    display: none;
+  }
 
-.latest-news,
-.latest-funding {
-  width: 100%;
-  align-items: flex-start;
-  margin-left: 1rem;
-}
-.latest-funding-container {
-  width: 100%;
-  justify-content:space-between;
-}
+  .white-nav-mobile {
+    justify-content: flex-end;
+  }
 
-.news-content {
-  width: 100%;
-}
+  .latest-news,
+  .latest-funding {
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
 
-.news1 {
-  width: 13rem;
-}
+  .latest-funding-container {
+    width: 100%;
+    justify-content: space-between;
+  }
 
+  .news-content {
+    width: 100%;
+  }
+
+  .news1 {
+    width: 13rem;
+  }
 }
