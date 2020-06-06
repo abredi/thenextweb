@@ -55,4 +55,12 @@
   .news1 {
     width: 13rem;
   }
+
+  .tnw-logo {
+    display: none;
+  }
+
+  .top-story .popular-title {
+    font-size: 2rem;
+  }
 }

@@ -146,6 +146,7 @@ a {
   padding: 1em;
 }
 
+.popular-author i,
 .popular-author a,
 .popular-author time,
 .popular-author li {
@@ -353,6 +354,13 @@ END of Latest deals section
 .footer-links {
   background-color: #131313;
   padding: 2.2em 1.5em 1.5em;
+}
+
+.icon-share-light {
+  background: transparent url(../img/icon_share_light.svg) no-repeat;
+  margin-left: 10px;
+  vertical-align: text-bottom;
+  display: inline-block;
 }
 
 .footer,
@@ -574,11 +582,49 @@ span {
   gap: 1em;
 }
 
-.big-news {
+.top-story {
   grid-row: span 2;
 }
 
 .top-news-banner img {
   height: 100%;
   width: 100%;
+}
+
+.top-story .popular-title {
+  font-size: 56px;
+  line-height: 1;
+}
+
+.top-story h5 {
+  text-transform: uppercase;
+  font-family: 'Ropa Sans', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 2.5;
+}
+
+.tnw-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.cover-logo {
+  background: transparent url(../img/tnw.svg) no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 112px;
+  max-width: 50%;
+}
+
+.top-story .popular-header {
+  padding: 0;
+  height: 100%;
 }
