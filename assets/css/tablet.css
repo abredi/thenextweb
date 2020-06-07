@@ -1,49 +1,66 @@
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+@media screen and (min-width: 768px) and (max-width: 1114px) {
   /**
     * This block is specifically for tablet only codes
   */
-.menu-icon,
-.logo-mobile {
-  display: none;
-}
-.white-nav-mobile {
-  justify-content: flex-end;
-}
 
-.cover {
+  /**
+  * Latest News
+  */
 
-}
-
-.latest-news,
-.latest-funding {
-  width: 100%;
-  align-items: flex-start;
-  margin-left: 1rem;
-}
-.latest-funding-container {
-  width: 100%;
-  justify-content:space-between;
-}
-
-.news-content {
-  width: 100%;
-}
-
-.news1 {
-  width: 13rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .col-3 {
+    width: 50%;
   }
+
+  /**
+  * Latest deals
+  */
+  .deals,
+  .category {
+    width: 100%;
+  }
+
+  .col {
+    width: 33.333%;
+  }
+
+  .product {
+    max-width: 100%;
+  }
+
+  .menu-icon,
+  .logo-mobile {
+    display: none;
+  }
+
+  .white-nav-mobile {
+    justify-content: flex-end;
+  }
+
+  .latest-news,
+  .latest-funding {
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
+
+  .latest-funding-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .news-content {
+    width: 100%;
+  }
+
+  .news1 {
+    width: 13rem;
+  }
+
+  .tnw-logo {
+    display: none;
+  }
+
+  .top-story .popular-title {
+    font-size: 2rem;
+  }
+}
