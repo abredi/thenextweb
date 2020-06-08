@@ -39,13 +39,24 @@
   .latest-news,
   .latest-funding {
     width: 100%;
+    max-width: 100%;
+  }
+
+  .latest-news {
     align-items: flex-start;
     margin-left: 1rem;
   }
 
+  .latest-funding {
+    margin: 0 auto;
+  }
+
   .latest-funding-container {
-    width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+
+  .latest-article1:last-child {
+    display: none;
   }
 
   .news-content {

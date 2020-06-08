@@ -256,6 +256,9 @@ Latest deals section
 .img-wrapper {
   position: relative;
   overflow: hidden;
+  background-color: #000;
+  min-block-size: 5em;
+  margin-bottom: 0.3em;
 }
 
 .img-wrapper img {
@@ -503,6 +506,11 @@ END of Latest deals section
   grid-row: 1/-1;
 }
 
+.latest-funding {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 .latest-news,
 .latest-funding {
   flex-direction: column;
@@ -513,7 +521,6 @@ END of Latest deals section
 .latest-funding h2 {
   display: flex;
   justify-content: flex-start;
-  width: 64%;
 }
 
 .news-content {
@@ -535,7 +542,7 @@ END of Latest deals section
 
 .latest-funding-container {
   flex-direction: row;
-  width: 64%;
+  width: 100%;
   justify-content: space-between;
 }
 
