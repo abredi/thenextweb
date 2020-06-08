@@ -639,3 +639,9 @@ span {
   font-size: 0.85em;
   font-family: 'Ropa Sans', Arial, Helvetica, sans-serif;
 }
+
+.search-icon,
+.menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
