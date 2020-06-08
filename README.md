@@ -2,9 +2,12 @@
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 > The NewNextWeb.com website home page replica based on [TheNextWeb.com](https://thenextweb.com/)
-
-![screenshot](./docs/app_screenshot.png)
-
+# BigScreen View
+![screenshot](./docs/screencapture-big.png)
+# MediumScreen View
+![screenshot](./docs/screencapture-medium.png)
+# MediumSmall View
+![screenshot](./docs/screencapture-small.png)
 This web page is developed by HTML5 and CSS only, without using any framework or library.
 
 ## Built With
