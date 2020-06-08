@@ -124,6 +124,10 @@ a {
   width: 100%;
 }
 
+.top-news-banner .popular-header {
+  padding-top: 35%;
+}
+
 .image-gradient {
   background: transparent url(../img/image-gradient.png) no-repeat;
   background-size: auto;
@@ -173,7 +177,7 @@ a {
   margin-bottom: 6px;
 }
 
-.latest > a {
+.latest>a {
   background-image: url("https://via.placeholder.com/993x517.png");
   flex: 0 0 96px;
   background-position: 50%;
@@ -229,12 +233,12 @@ Latest deals section
 */
 
 .deals-header a,
-.card > h2 > a {
+.card>h2>a {
   color: #f42;
 }
 
-.deals-header h2 > a::after,
-.card > h2 > a::after {
+.deals-header h2>a::after,
+.card>h2>a::after {
   background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
   content: "";
   display: inline-block;
