@@ -32,7 +32,7 @@
     display: none;
   }
 
-  .black-nav ul{
+  .black-nav ul {
     margin: 0.5rem 0 0 0;
   }
 
@@ -44,9 +44,9 @@
     justify-content: flex-end;
   }
 
- .yellow-nav p {
-   margin-left: 11.5rem;
- }
+  .yellow-nav p {
+    margin-left: 11.5rem;
+  }
 
   .latest-news,
   .latest-funding {
@@ -87,6 +87,11 @@
   }
 
   .top-news-banner .popular-header {
-    padding-top: 32%;
+    padding-top: 0;
+  }
+
+  .top-story .popular-header {
+    padding: 0;
+    padding-top: 0;
   }
 }
