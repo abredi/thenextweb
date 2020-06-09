@@ -106,10 +106,6 @@
     width: 33.33%;
   }
 
-  .latest-funding .news-col {
-    padding: 0.5em;
-  }
-
   .latest-funding .news-col:last-child {
     display: none;
   }
