@@ -468,7 +468,8 @@ END of Latest deals section
   flex-direction: row;
 }
 
-.black-nav ul {
+.first,
+.second {
   width: 50%;
   height: 1rem;
   list-style: none;
