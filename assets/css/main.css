@@ -562,7 +562,6 @@ END of Latest deals section
 
 .funding-info {
   margin: 0;
-  width: 15rem;
   height: 4rem;
   justify-content: center;
 }
@@ -570,7 +569,6 @@ END of Latest deals section
 .icons-text {
   flex-direction: column;
   height: auto;
-  width: 15rem;
   margin: 0;
 }
 

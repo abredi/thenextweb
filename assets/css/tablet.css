@@ -64,10 +64,12 @@
 
   .latest-funding-container {
     justify-content: space-around;
+    width: 100%;
+    margin: 0;
   }
 
   .news-content {
-    width: 100%;
+    max-width: 100%;
     justify-content: flex-start;
   }
 
@@ -92,11 +94,19 @@
     padding-top: 0;
   }
 
-  .latest-article1:last-child {
+  .news-col {
+    width: 33.33%;
+  }
+
+  .latest-funding .news-col {
+    padding: 0.5em;
+  }
+
+  .latest-funding .news-col:last-child {
     display: none;
   }
 
-  .news-col {
-    width: 33.33%;
+  .ml-10 {
+    margin-left: 0.5em;
   }
 }
