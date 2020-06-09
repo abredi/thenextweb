@@ -102,7 +102,7 @@
   }
 
   .news-content {
-    width: 100%;
+    max-width: 100%;
   }
 
   .news-content img {
@@ -113,6 +113,7 @@
   .news1 {
     width: 100%;
     flex-direction: row;
+    padding: 0;
   }
 
   .latest-funding {
@@ -163,5 +164,15 @@
     height: 150px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+  }
+
+  .news-col {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  .ml-10 {
+    margin-left: 0.5em;
   }
 }
