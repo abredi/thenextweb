@@ -55,6 +55,10 @@ a {
   margin-left: 0.5em;
 }
 
+.ml-10 {
+  margin-left: 10%;
+}
+
 .mt-half {
   margin-top: 0.5em;
 }
@@ -513,9 +517,6 @@ END of Latest deals section
 .latest-news,
 .latest-funding {
   flex-direction: column;
-  align-items: center;
-  max-width: 80%;
-  margin: 0 auto;
 }
 
 .latest-news h2,
@@ -526,6 +527,8 @@ END of Latest deals section
 .news-content {
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .news1 {
@@ -541,7 +544,8 @@ END of Latest deals section
 
 .latest-funding-container {
   flex-direction: row;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
