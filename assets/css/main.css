@@ -55,6 +55,10 @@ a {
   margin-left: 0.5em;
 }
 
+.mt-half {
+  margin-top: 0.5em;
+}
+
 .mb-half {
   margin-bottom: 0.5em;
 }
@@ -506,25 +510,24 @@ END of Latest deals section
   grid-row: 1/-1;
 }
 
-.latest-funding {
-  max-width: 80%;
-  margin: 0 auto;
-}
-
 .latest-news,
 .latest-funding {
   flex-direction: column;
   align-items: center;
 }
 
+.latest-funding,
+.latest-news {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 .latest-news h2,
 .latest-funding h2 {
   display: flex;
-  justify-content: flex-start;
 }
 
 .news-content {
-  width: 64%;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -533,7 +536,7 @@ END of Latest deals section
   flex-direction: column;
   width: min-content;
   text-align: start;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .text {
@@ -658,4 +661,8 @@ span {
   padding-top: 30%;
   max-height: 520px;
   height: max-content;
+}
+
+.news-col {
+  width: 25%;
 }

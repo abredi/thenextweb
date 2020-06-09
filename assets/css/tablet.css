@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1020px) {
   /**
     * This block is specifically for tablet only codes
   */
@@ -66,16 +66,13 @@
     justify-content: space-around;
   }
 
-  .latest-article1:last-child {
-    display: none;
-  }
-
   .news-content {
     width: 100%;
+    justify-content: flex-start;
   }
 
   .news1 {
-    width: 13rem;
+    width: 14.5rem;
   }
 
   .tnw-logo {
@@ -93,5 +90,13 @@
   .top-story .popular-header {
     padding: 0;
     padding-top: 0;
+  }
+
+  .latest-article1:last-child {
+    display: none;
+  }
+
+  .news-col {
+    width: 33.33%;
   }
 }

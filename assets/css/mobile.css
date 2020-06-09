@@ -154,4 +154,14 @@
   .white-nav-mobile img {
     width: 30;
   }
+
+  .top-story .popular-header {
+    padding-top: 0;
+  }
+
+  .top-news-banner .popular-header {
+    height: 150px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
 }
