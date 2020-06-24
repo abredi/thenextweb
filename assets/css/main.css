@@ -144,6 +144,15 @@ a {
   z-index: 2;
 }
 
+.icons-text a {
+  font-size: 10pt;
+  color: #555;
+  display: flex;
+  align-items: center;
+  padding: 0.3em 0;
+  line-height: 1em;
+}
+
 .card h5 {
   margin-bottom: 6px;
   font-family: 'Ropa Sans', Arial, Helvetica, sans-serif;
@@ -451,6 +460,8 @@ END of Latest deals section
 
 .light-orange {
   background-color: #ffebe8;
+  margin: 0;
+  padding-top: 0.51em;
 }
 
 .main-nav {
@@ -552,29 +563,58 @@ END of Latest deals section
 
 .logo {
   position: absolute;
-  margin-top: 2rem;
+  margin: 1em 0 0 0.5em;
 }
 
 .funding-name {
   height: 2.5rem;
   margin-bottom: 0;
   justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 900;
 }
 
 .funding-info {
   margin: 0;
   height: 4rem;
-  justify-content: center;
+  padding: 10px 0 0 calc(60px + 1em);
+}
+
+.funding-info p {
+  margin: 0;
+  padding-bottom: 0.3em;
+}
+
+.last-note {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  padding: 1em;
+}
+
+.last-note p {
+  margin: 0;
+  font-size: 9pt;
+}
+
+.last-note p:last-child {
+  color: #aaa;
+  margin-top: 0.5em;
+}
+
+.funding-info p:last-child {
+  font-size: 8pt;
+  text-transform: uppercase;
+  color: #8a8686;
+}
+
+.icons-text img {
+  padding-right: 0.7em;
 }
 
 .icons-text {
   flex-direction: column;
   height: auto;
   margin: 0;
-}
-
-.icons-text p {
-  border-top: 1px solid red;
 }
 
 .icons-text ul {
@@ -669,3 +709,4 @@ span {
 .latest-funding .news-col {
   padding: 0.5em;
 }
+
